@@ -1,1 +1,24 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.hidden {
+  display: none;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: left;
+}
+
+.board {
+  background-color: bisque;
+  width: 400px;
+  height: 400px;
+}
+
+.board-piece {
+  margin: 10px;
+  background-color: brown;
+  width: 40px;
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+// Global Variables
+.hidden {
+    display: none;
+}
+
+.row {
+    display: flex;
+    justify-items: left;
+}
+
+// Board CSS
+.board {
+    background-color: bisque;
+    width: 400px;
+    height: 400px;
+}
+
+.board-item {
+    background-color: brown;
+    width: 25px;
+    height: 25px;
+}
+

@@ -9,6 +9,18 @@
   justify-items: left;
 }
 
+.centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .board {
   background-color: bisque;
   width: 400px;
@@ -16,7 +28,7 @@
 }
 
 .board-piece {
-  margin: 10px;
+  margin: 15px;
   background-color: brown;
   width: 40px;
   height: 40px;

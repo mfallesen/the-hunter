@@ -8,6 +8,12 @@
     justify-items: left;
 }
 
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 // Board CSS
 .board {
     background-color: bisque;
@@ -15,9 +21,10 @@
     height: 400px;
 }
 
-.board-item {
+.board-piece {
+    margin: 15px;
     background-color: brown;
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
 }
 

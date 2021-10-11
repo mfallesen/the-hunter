@@ -15,3 +15,5 @@ const Player = {
         console.log("moving");
     },
 }
+
+export {Player};
